@@ -9,7 +9,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "Pageobjects-firefox":"npx playwright test cle.spec.ts --project=firefox",
+    "pageobjects-firefox":"npx playwright test cle.spec.ts --project=firefox",
     "Pageobjects-chromium":"npx playwright test cle.spec.ts --project=chromium",
     "Pageobjects-webkit":"npx playwright test cle.spec.ts --project=webkit",
     "Pageobjects-all":"npm run Pageobjects-firefox && npm run Pageobjects-chromium && npm run Pageobjects-webkit"
